@@ -244,9 +244,9 @@ export default function PortfolioScreen() {
               />
               <div className="absolute inset-0 bg-[#0b1b2d]/40 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-indigo-500/20" />
-              <div className="relative z-10 px-6 py-4 sm:px-12 sm:py-7 xl:px-20 xl:py-12 2xl:px-24 2xl:py-16 backdrop-blur-sm">
+              <div className="relative z-10 px-5 py-3 sm:px-8 sm:py-5 xl:px-14 xl:py-8 2xl:px-18 2xl:py-10 backdrop-blur-sm">
                 <h1 
-                  className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7.5rem] 2xl:text-[9.5rem] tracking-tight text-white font-normal leading-none break-words"
+                  className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] 2xl:text-[6.5rem] tracking-tight text-white font-normal leading-none break-words"
                   style={{ fontFamily: "'Instrument Serif', serif" }}
                 >
                   Konda Sridhar
@@ -275,7 +275,7 @@ export default function PortfolioScreen() {
             >
             {/* Multi-layered orbital glowing structure */}
             <div 
-              className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 xl:w-[520px] xl:h-[520px] 2xl:w-[620px] 2xl:h-[620px] flex items-center justify-center transition-transform duration-300 hover:scale-105"
+              className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 xl:w-[380px] xl:h-[380px] 2xl:w-[440px] 2xl:h-[440px] flex items-center justify-center transition-transform duration-300 hover:scale-105"
               style={{
                 transform: `rotateY(${mousePosition.x}deg) rotateX(${-mousePosition.y}deg)`,
                 transformStyle: 'preserve-3d',
@@ -300,7 +300,7 @@ export default function PortfolioScreen() {
               />
 
               {/* Main Avatar Frame */}
-              <div className="absolute inset-10 xl:inset-14 border border-white/20 rounded-full flex items-center justify-center overflow-hidden shadow-2xl bg-[#071322] z-10">
+              <div className="absolute inset-7 xl:inset-10 border border-white/20 rounded-full flex items-center justify-center overflow-hidden shadow-2xl bg-[#071322] z-10">
                 
                 {/* Image completely filling the circle */}
                 <img 
