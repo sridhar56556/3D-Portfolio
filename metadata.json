@@ -1,0 +1,6 @@
+{
+  "name": "Konda Sridhar Portfolio",
+  "description": "An interactive, premium 3D-effect developer portfolio for Konda Sridhar with a cinema cinematic Velorah header.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
